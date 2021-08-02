@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.ComponentModel.DataAnnotations;
 
 namespace InvoiceManagment.Models
 {
@@ -14,7 +10,5 @@ namespace InvoiceManagment.Models
         public Decimal PurchasePrice { get; set; }
         public Decimal SellingPrice { get; set; }
         public int Quantity { get; set; }
-
-
     }
 }
